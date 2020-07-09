@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Module 2 solution</title>
+</head>
+<style >
+	*{ box-sizing: border-box;
+}
+
+h1 {
+	font-size: 27px;
+	font-family: Georgia serif;
+	text-align: center;
+	color: black;
+	margin-bottom: 30px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Georgia sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+
+.section { 
+	background-color: grey;
+   	border: 2px solid black;
+   	margin-top: 25px; 
+   	margin-right: 25px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bolder;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#a1 {
+	background-color: pink;
+	color: black;
+}
+#a2 {
+	background-color: red;
+	color: black;
+}
+#a3 {
+	background-color: yellow;
+	color: black;
+}
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop PC  */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet  */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Moblie Phone*/
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
+</style>
+<body>
+<h1>Our Menu</h1>
+<div class='row'>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='a1'>Chicken</span>
+				<p>Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures around the world, and their meat has been variously adapted to regional tastes.Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling.</p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='a2'>Beef</span>
+				<p>IBeef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.Beef is a source of high-quality protein and nutrients.Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed .</p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-12 sx-12'>
+		<div class='section'>
+			<span id='a3'>Sushi</span>
+				<p>Sushi  is a Japanese dish of prepared vinegared rice  usually with some sugar and salt, accompanying a variety of ingredients , such as seafood, often raw, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari , or sumeshi .Sushi is traditionally made with medium-grain white rice, though it can be prepared w.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+  
